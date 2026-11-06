@@ -1,0 +1,11 @@
+# Streamlit Community Cloud only (entrypoint streamlit_cloud/streamlit_app.py).
+# Community Cloud reads the requirements file next to the entrypoint first, so
+# the root requirements.txt (CUDA TensorFlow for training under WSL2) stays as is.
+# CPU-only TensorFlow, same version the models were trained with.
+tensorflow-cpu==2.17.1
+numpy>=1.26,<2.1
+opencv-python-headless>=4.9
+Pillow>=10.0
+pandas>=2.1
+# Pinned: the version tested; later releases remove st.components.v1.html (Reef atlas map)
+streamlit==1.60.0

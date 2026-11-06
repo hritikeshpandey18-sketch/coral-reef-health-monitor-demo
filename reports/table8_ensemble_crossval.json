@@ -1,0 +1,61 @@
+{
+  "members": [
+    "mobilenetv2",
+    "resnet50",
+    "efficientnetb0",
+    "densenet121"
+  ],
+  "weights": "equal",
+  "n": 896,
+  "per_fold_accuracy": [
+    0.7667,
+    0.8268,
+    0.7318,
+    0.7374,
+    0.8212
+  ],
+  "aggregate": {
+    "accuracy": {
+      "mean": 0.7768,
+      "std": 0.0451
+    },
+    "f1_macro": {
+      "mean": 0.7754,
+      "std": 0.0468
+    },
+    "roc_auc": {
+      "mean": 0.864,
+      "std": 0.0432
+    }
+  },
+  "mcnemar_ensemble_vs_member": {
+    "mobilenetv2": {
+      "a_only_correct": 74,
+      "b_only_correct": 42,
+      "discordant": 116,
+      "p_value": 0.00381,
+      "significant_at_0.05": true
+    },
+    "resnet50": {
+      "a_only_correct": 60,
+      "b_only_correct": 44,
+      "discordant": 104,
+      "p_value": 0.14096,
+      "significant_at_0.05": false
+    },
+    "efficientnetb0": {
+      "a_only_correct": 68,
+      "b_only_correct": 45,
+      "discordant": 113,
+      "p_value": 0.03802,
+      "significant_at_0.05": true
+    },
+    "densenet121": {
+      "a_only_correct": 77,
+      "b_only_correct": 32,
+      "discordant": 109,
+      "p_value": 2e-05,
+      "significant_at_0.05": true
+    }
+  }
+}

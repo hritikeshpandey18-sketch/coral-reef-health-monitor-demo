@@ -1,0 +1,594 @@
+{
+  "_note": "Shared by web/src/components/Reefs.jsx and app.py (Reef atlas). Figures are rounded from public sources; threat level is a summary, not an IUCN category.",
+  "levels": {
+    "crit": {
+      "label": "Critical",
+      "color": "#ff6b5e"
+    },
+    "high": {
+      "label": "High threat",
+      "color": "#ffb454"
+    },
+    "watch": {
+      "label": "Under watch",
+      "color": "#37d6a0"
+    }
+  },
+  "reefs": [
+    {
+      "id": "gbr",
+      "name": "Great Barrier Reef",
+      "where": "Queensland, Australia",
+      "lon": 147.5,
+      "lat": -18.5,
+      "level": "crit",
+      "facts": [
+        [
+          "Marine park",
+          "~344,400 km²"
+        ],
+        [
+          "Individual reefs",
+          "~2,900"
+        ],
+        [
+          "Coral species",
+          "400+ hard corals"
+        ],
+        [
+          "Length",
+          "~2,300 km"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2002",
+        "2016",
+        "2017",
+        "2020",
+        "2022",
+        "2024",
+        "2025"
+      ],
+      "note": "The world's largest reef system and a UNESCO World Heritage Site. It has suffered six mass bleaching events in under a decade, leaving little time for recovery between them."
+    },
+    {
+      "id": "ct",
+      "name": "Coral Triangle",
+      "where": "Indonesia, Philippines, Malaysia, Papua New Guinea, Solomon Islands, Timor-Leste",
+      "lon": 125,
+      "lat": -1,
+      "level": "high",
+      "facts": [
+        [
+          "Coral species",
+          "~600 reef-building"
+        ],
+        [
+          "Share of world species",
+          "~76%"
+        ],
+        [
+          "Reef fish species",
+          "~37% of world"
+        ],
+        [
+          "People supported",
+          "120M+"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2010",
+        "2016",
+        "2024"
+      ],
+      "note": "The global centre of marine biodiversity, including Raja Ampat. Overfishing, blast fishing, coastal development and warming all put pressure on it."
+    },
+    {
+      "id": "mbr",
+      "name": "Mesoamerican Reef",
+      "where": "Mexico, Belize, Guatemala, Honduras",
+      "lon": -87.5,
+      "lat": 17.5,
+      "level": "crit",
+      "facts": [
+        [
+          "Length",
+          "~1,000 km"
+        ],
+        [
+          "Rank",
+          "Largest in the Americas"
+        ],
+        [
+          "UNESCO site",
+          "Belize Barrier Reef"
+        ],
+        [
+          "Coral species",
+          "~65 stony corals"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2005",
+        "2023"
+      ],
+      "note": "Stony coral tissue loss disease has spread through the region since 2018, and the 2023 marine heatwave caused severe bleaching across the Caribbean."
+    },
+    {
+      "id": "fl",
+      "name": "Florida's Coral Reef",
+      "where": "Florida Keys, USA",
+      "lon": -81,
+      "lat": 24.6,
+      "level": "crit",
+      "facts": [
+        [
+          "Length",
+          "~580 km"
+        ],
+        [
+          "Rank",
+          "Only US continental barrier reef"
+        ],
+        [
+          "Protected species",
+          "Elkhorn & staghorn (ESA)"
+        ],
+        [
+          "Peak water temp 2023",
+          "~38 °C nearshore"
+        ]
+      ],
+      "events": [
+        "2014",
+        "2015",
+        "2023"
+      ],
+      "note": "Elkhorn and staghorn corals were listed as threatened under the US Endangered Species Act in 2006. The 2023 heatwave caused widespread bleaching and death, including in restoration nurseries."
+    },
+    {
+      "id": "rs",
+      "name": "Red Sea",
+      "where": "Egypt, Saudi Arabia, Sudan, Eritrea, Israel, Jordan",
+      "lon": 37,
+      "lat": 22,
+      "level": "watch",
+      "facts": [
+        [
+          "Reef length",
+          "~2,000 km"
+        ],
+        [
+          "Coral species",
+          "~300+ hard corals"
+        ],
+        [
+          "Known for",
+          "Heat-tolerant corals"
+        ],
+        [
+          "Refuge",
+          "Gulf of Aqaba"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2015",
+        "2020"
+      ],
+      "note": "Corals in the northern Red Sea tolerate unusually high temperatures, so scientists see the Gulf of Aqaba as a possible climate refuge. The south has bleached more often."
+    },
+    {
+      "id": "pg",
+      "name": "Persian Gulf",
+      "where": "UAE, Qatar, Bahrain, Saudi Arabia, Iran",
+      "lon": 52.5,
+      "lat": 25.5,
+      "level": "high",
+      "facts": [
+        [
+          "Summer water temp",
+          "Up to ~35 °C"
+        ],
+        [
+          "Coral species",
+          "~50–70 hard corals"
+        ],
+        [
+          "Known for",
+          "Hottest reefs on Earth"
+        ],
+        [
+          "Main pressure",
+          "Heat & coastal works"
+        ]
+      ],
+      "events": [
+        "1996",
+        "1998",
+        "2017"
+      ],
+      "note": "These corals survive the hottest seas of any reef, which makes them important for understanding heat tolerance. Large losses have still followed extreme summers."
+    },
+    {
+      "id": "mv",
+      "name": "Maldives",
+      "where": "Maldives",
+      "lon": 73.3,
+      "lat": 3.5,
+      "level": "high",
+      "facts": [
+        [
+          "Atolls",
+          "26"
+        ],
+        [
+          "Islands",
+          "~1,190"
+        ],
+        [
+          "Bleached in 2016",
+          "~60% of corals"
+        ],
+        [
+          "Highest land",
+          "~2.4 m above sea"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2016",
+        "2024"
+      ],
+      "note": "The whole nation is built on coral atolls, so reef health and the country's future are directly linked. Its reefs protect the islands from waves and rising seas."
+    },
+    {
+      "id": "lk",
+      "name": "Lakshadweep",
+      "where": "India",
+      "lon": 72.6,
+      "lat": 10.6,
+      "level": "high",
+      "facts": [
+        [
+          "Islands",
+          "36"
+        ],
+        [
+          "Reef type",
+          "Coral atolls"
+        ],
+        [
+          "Protection",
+          "Schedule I, WPA 1972"
+        ],
+        [
+          "Main pressure",
+          "Repeated bleaching"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2010",
+        "2016",
+        "2024"
+      ],
+      "note": "India's only coral atolls. Repeated bleaching has reduced live coral cover, and the islands depend on these reefs for fishing and coastal protection."
+    },
+    {
+      "id": "gm",
+      "name": "Gulf of Mannar",
+      "where": "Tamil Nadu, India",
+      "lon": 79.2,
+      "lat": 9.1,
+      "level": "high",
+      "facts": [
+        [
+          "Islands",
+          "21"
+        ],
+        [
+          "Status",
+          "Marine National Park (1986)"
+        ],
+        [
+          "Also",
+          "Biosphere Reserve (1989)"
+        ],
+        [
+          "Main pressure",
+          "Heat, mining, trawling"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2010",
+        "2016",
+        "2024"
+      ],
+      "note": "Past coral mining and destructive fishing damaged these fringing reefs. Restoration and stricter protection have helped parts of the reef recover."
+    },
+    {
+      "id": "an",
+      "name": "Andaman & Nicobar Islands",
+      "where": "India",
+      "lon": 92.8,
+      "lat": 11.5,
+      "level": "high",
+      "facts": [
+        [
+          "Rank",
+          "India's largest reef area"
+        ],
+        [
+          "Reef type",
+          "Fringing reefs"
+        ],
+        [
+          "Protected areas",
+          "Mahatma Gandhi MNP and others"
+        ],
+        [
+          "Protection",
+          "Schedule I, WPA 1972"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2004",
+        "2010",
+        "2016"
+      ],
+      "note": "The richest coral reefs in India. The 2004 tsunami uplifted and damaged parts of the reef, and marine heatwaves have caused repeated bleaching since."
+    },
+    {
+      "id": "ng",
+      "name": "Ningaloo Reef",
+      "where": "Western Australia",
+      "lon": 113.8,
+      "lat": -22.5,
+      "level": "watch",
+      "facts": [
+        [
+          "Length",
+          "~260 km"
+        ],
+        [
+          "Reef type",
+          "Fringing reef"
+        ],
+        [
+          "UNESCO",
+          "Listed 2011"
+        ],
+        [
+          "Known for",
+          "Whale sharks"
+        ]
+      ],
+      "events": [
+        "2011",
+        "2025"
+      ],
+      "note": "One of the world's largest fringing reefs, close enough to shore to swim to. It was relatively unharmed for many years but bleached during the 2025 heatwave."
+    },
+    {
+      "id": "nc",
+      "name": "New Caledonia",
+      "where": "French Pacific territory",
+      "lon": 165.5,
+      "lat": -21.5,
+      "level": "watch",
+      "facts": [
+        [
+          "Rank",
+          "Among longest barrier reefs"
+        ],
+        [
+          "UNESCO",
+          "Lagoons listed 2008"
+        ],
+        [
+          "Natural Park",
+          "Coral Sea (2014)"
+        ],
+        [
+          "Main pressure",
+          "Nickel mining runoff"
+        ]
+      ],
+      "events": [
+        "2016",
+        "2024"
+      ],
+      "note": "Its lagoons hold one of the most diverse reef systems in the world. Many reefs remain in comparatively good condition."
+    },
+    {
+      "id": "ok",
+      "name": "Sekisei Lagoon",
+      "where": "Okinawa, Japan",
+      "lon": 124,
+      "lat": 24.3,
+      "level": "crit",
+      "facts": [
+        [
+          "Rank",
+          "Japan's largest coral reef"
+        ],
+        [
+          "Coral dead by end of 2016",
+          "~70%"
+        ],
+        [
+          "Location",
+          "Ishigaki–Iriomote"
+        ],
+        [
+          "Main pressure",
+          "Heat, crown-of-thorns"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2007",
+        "2016",
+        "2022"
+      ],
+      "note": "Japan's Ministry of the Environment reported that about 70% of the lagoon's corals had died after the 2016 bleaching event."
+    },
+    {
+      "id": "hi",
+      "name": "Hawaiian Islands",
+      "where": "Hawai‘i, USA",
+      "lon": -157,
+      "lat": 20.8,
+      "level": "high",
+      "facts": [
+        [
+          "Protected area",
+          "Papahānaumokuākea"
+        ],
+        [
+          "Area protected",
+          "~1.5M km²"
+        ],
+        [
+          "Endemic reef fish",
+          "~25%"
+        ],
+        [
+          "Main pressure",
+          "Heat, runoff"
+        ]
+      ],
+      "events": [
+        "1996",
+        "2014",
+        "2015",
+        "2019"
+      ],
+      "note": "Hawaiian reefs are isolated, so many of their species exist nowhere else. Back-to-back bleaching in 2014 and 2015 killed large areas of coral, especially in West Hawai‘i."
+    },
+    {
+      "id": "ch",
+      "name": "Chagos Archipelago",
+      "where": "Central Indian Ocean",
+      "lon": 72,
+      "lat": -6.2,
+      "level": "watch",
+      "facts": [
+        [
+          "Known for",
+          "Remote, low human impact"
+        ],
+        [
+          "Marine reserve",
+          "~640,000 km² (2010)"
+        ],
+        [
+          "Atolls",
+          "Includes Great Chagos Bank"
+        ],
+        [
+          "Main pressure",
+          "Heat only"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2015",
+        "2016"
+      ],
+      "note": "With almost no local pollution or fishing, these reefs show how coral recovers when heat is the only threat. They recovered after 1998 but bleached again in 2015 and 2016."
+    },
+    {
+      "id": "ea",
+      "name": "East African Coast",
+      "where": "Kenya, Tanzania, Mozambique, Madagascar",
+      "lon": 40.5,
+      "lat": -8,
+      "level": "high",
+      "facts": [
+        [
+          "Reef type",
+          "Fringing & patch reefs"
+        ],
+        [
+          "Rank",
+          "Most of W. Indian Ocean reefs"
+        ],
+        [
+          "People supported",
+          "Millions of coastal fishers"
+        ],
+        [
+          "Main pressure",
+          "Heat, overfishing"
+        ]
+      ],
+      "events": [
+        "1998",
+        "2016",
+        "2024"
+      ],
+      "note": "The 1998 El Niño killed a large share of corals across the Western Indian Ocean. Many coastal communities depend directly on reef fisheries."
+    }
+  ],
+  "figures": [
+    {
+      "value": "44%",
+      "text": "of reef-building coral species are threatened with extinction.",
+      "source": "IUCN Red List, Nov 2024"
+    },
+    {
+      "value": "~84%",
+      "text": "of the world's reef area has faced bleaching-level heat stress since January 2023.",
+      "source": "NOAA Coral Reef Watch / ICRI, Apr 2025"
+    },
+    {
+      "value": "14%",
+      "text": "of the world's coral was lost in just nine years, between 2009 and 2018.",
+      "source": "GCRMN Status of Coral Reefs, 2020"
+    },
+    {
+      "value": "<1%",
+      "text": "of the ocean floor is covered by reefs, yet they support about 25% of marine species.",
+      "source": "UNEP / NOAA"
+    },
+    {
+      "value": "70–90%",
+      "text": "of tropical reefs are projected to decline at 1.5 °C of warming; more than 99% at 2 °C.",
+      "source": "IPCC Special Report on 1.5 °C, 2018"
+    },
+    {
+      "value": "500M+",
+      "text": "people depend on reefs for food, income and protection from storms and waves.",
+      "source": "NOAA"
+    }
+  ],
+  "actions": [
+    {
+      "title": "Cut carbon emissions",
+      "text": "Ocean warming is the main driver of mass bleaching. Every fraction of a degree avoided keeps more reefs alive."
+    },
+    {
+      "title": "Dive and snorkel with care",
+      "text": "Never touch, stand on or break coral. Use mineral sunscreen and keep fins clear of the reef."
+    },
+    {
+      "title": "Never buy coral products",
+      "text": "In India, all reef-building corals are protected under Schedule I of the Wildlife (Protection) Act, 1972."
+    },
+    {
+      "title": "Support marine protected areas",
+      "text": "Well-managed protected areas reduce fishing and pollution pressure, which helps reefs recover between heatwaves."
+    },
+    {
+      "title": "Report what you see",
+      "text": "Citizen-science programmes such as CoralWatch and Reef Check use photographs from the public to track bleaching."
+    }
+  ]
+}

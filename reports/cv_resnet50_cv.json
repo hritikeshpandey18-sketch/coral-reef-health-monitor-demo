@@ -1,0 +1,135 @@
+{
+  "model": "resnet50",
+  "folds": 5,
+  "classes": [
+    "bleached",
+    "healthy"
+  ],
+  "n_images": 896,
+  "per_fold": [
+    {
+      "accuracy": 0.7556,
+      "precision_macro": 0.7579,
+      "recall_macro": 0.7579,
+      "f1_macro": 0.7556,
+      "precision_weighted": 0.7602,
+      "recall_weighted": 0.7556,
+      "f1_weighted": 0.7556,
+      "roc_auc": 0.853,
+      "cohen_kappa": 0.5126,
+      "mcc": 0.5158,
+      "n_test": 180,
+      "fold": 1,
+      "best_val_accuracy": 0.8692,
+      "selected_stage": "finetune"
+    },
+    {
+      "accuracy": 0.7654,
+      "precision_macro": 0.7763,
+      "recall_macro": 0.7583,
+      "f1_macro": 0.759,
+      "precision_weighted": 0.7738,
+      "recall_weighted": 0.7654,
+      "f1_weighted": 0.7614,
+      "roc_auc": 0.8959,
+      "cohen_kappa": 0.523,
+      "mcc": 0.5343,
+      "n_test": 179,
+      "fold": 2,
+      "best_val_accuracy": 0.9159,
+      "selected_stage": "head"
+    },
+    {
+      "accuracy": 0.7486,
+      "precision_macro": 0.7549,
+      "recall_macro": 0.7425,
+      "f1_macro": 0.7432,
+      "precision_weighted": 0.7532,
+      "recall_weighted": 0.7486,
+      "f1_weighted": 0.7455,
+      "roc_auc": 0.8642,
+      "cohen_kappa": 0.49,
+      "mcc": 0.4973,
+      "n_test": 179,
+      "fold": 3,
+      "best_val_accuracy": 0.8037,
+      "selected_stage": "finetune"
+    },
+    {
+      "accuracy": 0.7318,
+      "precision_macro": 0.7356,
+      "recall_macro": 0.7345,
+      "f1_macro": 0.7318,
+      "precision_weighted": 0.7379,
+      "recall_weighted": 0.7318,
+      "f1_weighted": 0.7315,
+      "roc_auc": 0.7882,
+      "cohen_kappa": 0.4659,
+      "mcc": 0.4701,
+      "n_test": 179,
+      "fold": 4,
+      "best_val_accuracy": 0.7944,
+      "selected_stage": "head"
+    },
+    {
+      "accuracy": 0.7933,
+      "precision_macro": 0.7928,
+      "recall_macro": 0.7931,
+      "f1_macro": 0.7929,
+      "precision_weighted": 0.7934,
+      "recall_weighted": 0.7933,
+      "f1_weighted": 0.7933,
+      "roc_auc": 0.8876,
+      "cohen_kappa": 0.5858,
+      "mcc": 0.5858,
+      "n_test": 179,
+      "fold": 5,
+      "best_val_accuracy": 0.7664,
+      "selected_stage": "head"
+    }
+  ],
+  "aggregate": {
+    "accuracy": {
+      "mean": 0.7589,
+      "std": 0.0228,
+      "min": 0.7318,
+      "max": 0.7933
+    },
+    "precision_macro": {
+      "mean": 0.7635,
+      "std": 0.0218,
+      "min": 0.7356,
+      "max": 0.7928
+    },
+    "recall_macro": {
+      "mean": 0.7573,
+      "std": 0.0225,
+      "min": 0.7345,
+      "max": 0.7931
+    },
+    "f1_macro": {
+      "mean": 0.7565,
+      "std": 0.023,
+      "min": 0.7318,
+      "max": 0.7929
+    },
+    "roc_auc": {
+      "mean": 0.8578,
+      "std": 0.0426,
+      "min": 0.7882,
+      "max": 0.8959
+    },
+    "cohen_kappa": {
+      "mean": 0.5155,
+      "std": 0.045,
+      "min": 0.4659,
+      "max": 0.5858
+    },
+    "mcc": {
+      "mean": 0.5207,
+      "std": 0.0435,
+      "min": 0.4701,
+      "max": 0.5858
+    }
+  }
+}
